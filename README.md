@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-[Interactive Pricing Component](https://13reath.github.io/pricing-component/)
+[Interactive Pricing Component](https://13reath.github.io/Pricing-component/)
 
 ## Preview
 
