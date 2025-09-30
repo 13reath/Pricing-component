@@ -1,3 +1,14 @@
+import PageLayout from './layout/PageLayout';
+import HeadLayout from './layout/HeadLayout';
+import PricingRange from './components/PricingRange';
+import BottomLayout from './layout/BottomLayout';
+
 export default function App() {
-    return <div>Hello, World!</div>;
+    return (
+        <PageLayout>
+            <HeadLayout />
+            <PricingRange />
+            <BottomLayout />
+        </PageLayout>
+    );
 }

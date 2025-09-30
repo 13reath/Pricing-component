@@ -1,0 +1,50 @@
+.slider {
+    background: hsl(224, 65%, 95%);
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    background: hsl(174, 86%, 45%) url('/images/icon-slider.svg') no-repeat center;
+    background-size: 22px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 20px 30px hsla(174, 86%, 45%, 0.7);
+    margin-top: -16px;
+}
+
+.slider::-webkit-slider-thumb:hover {
+    background-color: hsl(174, 77%, 80%);
+    box-shadow: 0 18px 35px hsla(174, 86%, 45%, 0.6);
+}
+
+.slider::-webkit-slider-thumb:active {
+    cursor: grabbing;
+}
+
+.slider::-moz-range-thumb {
+    width: 40px;
+    height: 40px;
+    background: hsl(174, 86%, 45%) url('/images/icon-slider.svg') no-repeat center;
+    background-size: 22px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 15px 30px hsla(174, 86%, 45%, 0.5);
+}
+
+.slider::-moz-range-thumb:hover {
+    background-color: hsl(174, 77%, 80%);
+}
+
+.slider::-webkit-slider-runnable-track {
+    height: 8px;
+    border-radius: 5px;
+}
+
+.slider::-moz-range-track {
+    height: 8px;
+    border-radius: 5px;
+    background: hsl(224, 65%, 95%);
+}
